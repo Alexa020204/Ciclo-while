@@ -1,0 +1,15 @@
+#Escribir un programa que permita al usuario el ingreso de n numeros
+# Primero debe preguntar al usuario cuanto números desea ingresar.
+# Al final del programa presenta la sumatoria de dichos núemros
+
+acum=0
+cuantos=int(input("¿Cuantos numeros desea ingresar? "))
+ciclo=0
+while ciclo< cuantos:
+    num=int(input("Ingrese un numero: "))
+    acum += num
+    ciclo += 1
+    
+print("Total:", acum)
+
+
