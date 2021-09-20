@@ -1,0 +1,16 @@
+#Desarrolle  un programaque muestre  la  edad  de  la  persona
+#más  joven  que  asiste  a  un  evento. No se conoce por anticipado
+#cuántos serán los asistentes, sólo se sabe que cuando ingrese una edad inválida,
+#es decir fueradel rango entre [0...120]se habrá dado por terminado el ingreso al evento. 
+
+edad=int(input("Ingrese la edad de un participante: "))
+x=edad
+while edad<=120 and edad>=0:
+    edad=int(input("Ingrese la edad de otro participante: "))
+    if edad<x:
+        x=edad
+    if edad >120 or edad<0:
+        break
+ 
+print("Termina el ingreso al evento")
+print("La edad del menor participante es: ",x)    
