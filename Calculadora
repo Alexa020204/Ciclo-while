@@ -1,0 +1,31 @@
+#Elaborar una calculadora
+# Menu: Bienvenido a tu calculadora
+#       1-Suma
+#       2- Resta
+#       3-Salir
+#       Ingrsea opción:
+opcion=""
+while opcion !=3:
+    print("Bienvenido a tu calculadora")
+    print("1-Suma")
+    print("2-Resta")
+    print("3-Salir")
+    opcion=input("Ingrese una opción: ")
+    if (opcion=="1"):
+        n1=int(input("Ingrse numero 1: "))
+        n2=int(input("Ingrse numero 2: "))
+        total= n1+n2
+        print("La suma de los dos numeros es:",total)
+    elif (opcion=="2"):
+        n1=int(input("Ingrse numero 1: "))
+        n2=int(input("Ingrse numero 2: "))
+        total= n1-n2
+        print("La resta de los dos numeros es:",total)
+    elif (opcion=="3"):
+        print("Gracias por usar tu calculadora")
+    else:
+        print("Ingrese una opcion correcta")
+        
+    
+        
+
