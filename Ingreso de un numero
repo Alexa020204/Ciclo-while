@@ -1,0 +1,12 @@
+#Bucle While
+
+#Permita el ingreso de un numero, si el usuario no ingresa el numero entonces vuelva a pedir hasta que ingrese correctamente 
+ 
+num = input("Ingrese un numero: ")
+
+while not num.isdigit():
+    print("Porfavor ingrese correctamente")
+    num=input("Ingrese un numero: ")
+print("Programa terminado")
+
+
